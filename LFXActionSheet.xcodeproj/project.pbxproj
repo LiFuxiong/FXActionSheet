@@ -15,6 +15,8 @@
 		18E05A2C1CB3842700F45C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E05A2A1CB3842700F45C75 /* LaunchScreen.storyboard */; };
 		18E05A371CB3842700F45C75 /* LFXActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E05A361CB3842700F45C75 /* LFXActionSheetTests.m */; };
 		18E05A421CB3842700F45C75 /* LFXActionSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E05A411CB3842700F45C75 /* LFXActionSheetUITests.m */; };
+		18E05A541CB3846E00F45C75 /* FXActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E05A511CB3846E00F45C75 /* FXActionSheet.m */; };
+		18E05A551CB3846E00F45C75 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E05A531CB3846E00F45C75 /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		18E05A3D1CB3842700F45C75 /* LFXActionSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFXActionSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E05A411CB3842700F45C75 /* LFXActionSheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFXActionSheetUITests.m; sourceTree = "<group>"; };
 		18E05A431CB3842700F45C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E05A501CB3846E00F45C75 /* FXActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXActionSheet.h; sourceTree = "<group>"; };
+		18E05A511CB3846E00F45C75 /* FXActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXActionSheet.m; sourceTree = "<group>"; };
+		18E05A521CB3846E00F45C75 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		18E05A531CB3846E00F45C75 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		18E05A1B1CB3842700F45C75 /* LFXActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				18E05A4F1CB3846E00F45C75 /* FXActionSheet */,
 				18E05A1F1CB3842700F45C75 /* AppDelegate.h */,
 				18E05A201CB3842700F45C75 /* AppDelegate.m */,
 				18E05A221CB3842700F45C75 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				18E05A431CB3842700F45C75 /* Info.plist */,
 			);
 			path = LFXActionSheetUITests;
+			sourceTree = "<group>";
+		};
+		18E05A4F1CB3846E00F45C75 /* FXActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				18E05A501CB3846E00F45C75 /* FXActionSheet.h */,
+				18E05A511CB3846E00F45C75 /* FXActionSheet.m */,
+				18E05A521CB3846E00F45C75 /* UIViewExt.h */,
+				18E05A531CB3846E00F45C75 /* UIViewExt.m */,
+			);
+			path = FXActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +290,9 @@
 			files = (
 				18E05A241CB3842700F45C75 /* ViewController.m in Sources */,
 				18E05A211CB3842700F45C75 /* AppDelegate.m in Sources */,
+				18E05A551CB3846E00F45C75 /* UIViewExt.m in Sources */,
 				18E05A1E1CB3842700F45C75 /* main.m in Sources */,
+				18E05A541CB3846E00F45C75 /* FXActionSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
